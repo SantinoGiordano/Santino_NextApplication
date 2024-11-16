@@ -30,8 +30,7 @@ const Navbar = async () => {
               onClick={async () => {
                 "use server";
                 await signIn("github");
-              }}
-            >
+              }}>
               <span>Login</span>
             </button>
           )}
