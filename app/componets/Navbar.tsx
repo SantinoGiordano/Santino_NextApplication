@@ -1,4 +1,4 @@
-import { auth, signIn, signOut } from "@/auth";
+import { auth, signIn, signOut } from "@/auth"
 import Link from "next/link";
 import React from "react";
 
@@ -17,22 +17,27 @@ const Navbar = async () => {
               <Link href="/startup/create">
                 <span>Create</span>
               </Link>
-              <button onClick={signOut}>
-                <span>Sign Out</span>
-              </button>
+              <form action={async () => {
+                  "use server";
+                  await signOut();
+                }}
+              >
+                <button type="submit">Sign Out</button>
+              </form>
 
               <Link href={`/user/${session?.id}`}>
                 <span>{session?.user?.name}</span>
               </Link>
             </>
           ) : (
-            <button
-              onClick={async () => {
+            <form
+              action={async () => {
                 "use server";
                 await signIn("github");
-              }}>
-              <span>Login</span>
-            </button>
+              }}
+            >
+              <button type="submit">Login</button>
+            </form>
           )}
         </div>
       </nav>
