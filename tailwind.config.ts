@@ -14,6 +14,9 @@ export default {
         dbNav: "rgb(23 37 84)",
         lbBackground: "rgb(191 219 254)",
       },
+      fontSize: {
+        'responsiveHeader': 'clamp(0.75vw, 2.5vw, 3vw )',
+      },
     },
   },
   plugins: [],
