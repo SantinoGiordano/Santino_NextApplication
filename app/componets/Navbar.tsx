@@ -15,17 +15,17 @@ const Navbar = async () => {
           {session && session?.user ? (
             <>
               <Link href="/startup/create">
-                <span className="font-sans text-responsiveHeader transition duration-300 hover:scale-125 hover:shadow-lg pr-3">Create</span>
+                <span className="navButton">Create</span>
               </Link>
               <form action={async () => {
                   "use server";
                   await signOut();
                 }}
               >
-                <button type="submit" className="font-sans text-responsiveHeader hover:shadow-lg pr-3">Sign Out</button>
+                <button type="submit" className="navButton">Sign Out</button>
               </form>
 
-              <Link href={`/user/${session?.id}`} className=" font-sans text-responsiveHeader hover:shadow-lg">
+              <Link href={`/user/${session?.id}`} className="navButton">
                 <span>{session?.user?.name}</span>
               </Link>
             </>
