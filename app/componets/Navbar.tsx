@@ -1,4 +1,4 @@
-import { auth, signIn, signOut } from "@/auth"
+import { auth, signIn, signOut } from "@/auth";
 import Link from "next/link";
 import React from "react";
 
@@ -36,7 +36,7 @@ const Navbar = async () => {
                 await signIn("github");
               }}
             >
-              <button type="submit">Login</button>
+              <button type="submit">Login through Github</button>
             </form>
           )}
         </div>
