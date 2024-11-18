@@ -15,7 +15,7 @@ export default {
         lbBackground: "rgb(191 219 254)",
       },
       fontSize: {
-        'responsiveHeader': 'clamp(0.75vw, 2.5vw, 3vw )',
+        'responsiveHeader': 'clamp(0.75vw, 2vw, 3vw )',
       },
     },
   },
