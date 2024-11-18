@@ -17,6 +17,9 @@ export default {
       fontSize: {
         'responsiveHeader': 'clamp(0.75vw, 2vw, 3vw )',
       },
+      fontFamily:{
+        "work-sans": ['var(--font-work-sans)']
+      }
     },
   },
   plugins: [],
