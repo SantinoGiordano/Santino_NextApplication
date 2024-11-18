@@ -11,6 +11,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        dbNav: "rgb(23 37 84)",
+        lbBackground: "rgb(191 219 254)",
       },
     },
   },
