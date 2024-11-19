@@ -2,9 +2,11 @@ import SearchForm from "@/app/componets/SearchForm";
 import { SearchParams } from "next/dist/server/request/search-params";
 
 export default async function Home({searchParams}: {
-  SearchParams: Promise<{ query?: string }>;
+  searchParams: Promise<{ query?: string }>;
 }) {
-  const query = (await searchParams).querry;
+  const query = (await searchParams).query;
+
+  //rmove this data latr, this is temp
 
   return (
     <section className="blue_container">
@@ -20,6 +22,14 @@ export default async function Home({searchParams}: {
         feeds and online accounts
       </p>
       <SearchForm query={query} />
+      <section className="section_contianer p-5">
+      <p className="text-30-semibold">
+        {query ? `Search results for "${query}"` : 'All Blogs'}
+      </p> 
+      <ul className="mt-7 card_grid">
+
+      </ul>
+      </section>
     </section>
   );
 }
