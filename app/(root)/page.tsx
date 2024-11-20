@@ -26,7 +26,7 @@ const blogs  = [
     author: { _id: 2, name: "Alice" }, 
     _id: 2,
     description: 'Exploring new horizons',
-    image: 'explore.jpg',
+    image: 'escape.jpg',
     catagory: "Travel",
     title: "The Great Escape"
   },
@@ -46,7 +46,7 @@ const blogs  = [
     author: { _id: 4, name: "Diana" }, 
     _id: 4,
     description: 'A healthy lifestyle guide',
-    image: 'health.jpg',
+    image: 'healthy.jpg',
     catagory: "Health",
     title: "Healthy Living"
   },
@@ -66,7 +66,7 @@ const blogs  = [
     author: { _id: 6, name: "Frank" }, 
     _id: 6,
     description: 'Mindfulness and meditation',
-    image: 'meditation.jpg',
+    image: 'innerP.jpg',
     catagory: "Wellness",
     title: "Inner Peace"
   },
@@ -76,7 +76,7 @@ const blogs  = [
     author: { _id: 7, name: "Grace" }, 
     _id: 7,
     description: 'The art of photography',
-    image: 'photography.jpg',
+    image: 'capture.jpg',
     catagory: "Art",
     title: "Capture the Moment"
   }
