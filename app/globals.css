@@ -146,7 +146,7 @@
     }
 
     .blog-card_img {
-        @apply w-96 h-full rounded-[10px] object-cover;
+        @apply w-96 h-56 rounded-[10px] object-cover;
     }
 
     .startup-card_btn {
