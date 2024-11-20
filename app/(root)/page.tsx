@@ -17,7 +17,7 @@ const blogs  = [
     _id: 1,
     description: 'This is my first blog',
     image: 'people.jpg',
-    catagory: "People",
+    category: "People",
     title: "We People"
   },
   { 
@@ -27,7 +27,7 @@ const blogs  = [
     _id: 2,
     description: 'Exploring new horizons',
     image: 'escape.jpg',
-    catagory: "Travel",
+    category: "Travel",
     title: "The Great Escape"
   },
   { 
@@ -37,7 +37,7 @@ const blogs  = [
     _id: 3,
     description: 'Understanding technology',
     image: 'tech.jpg',
-    catagory: "Technology",
+    category: "Technology",
     title: "Tech Today"
   },
   { 
@@ -47,7 +47,7 @@ const blogs  = [
     _id: 4,
     description: 'A healthy lifestyle guide',
     image: 'healthy.jpg',
-    catagory: "Health",
+    category: "Health",
     title: "Healthy Living"
   },
   { 
@@ -57,7 +57,7 @@ const blogs  = [
     _id: 5,
     description: 'Adventures in cooking',
     image: 'food.jpg',
-    catagory: "Food",
+    category: "Food",
     title: "Cooking Adventures"
   },
   { 
@@ -67,7 +67,7 @@ const blogs  = [
     _id: 6,
     description: 'Mindfulness and meditation',
     image: 'innerP.jpg',
-    catagory: "Wellness",
+    category: "Wellness",
     title: "Inner Peace"
   },
   { 
@@ -77,7 +77,7 @@ const blogs  = [
     _id: 7,
     description: 'The art of photography',
     image: 'capture.jpg',
-    catagory: "Art",
+    category: "Art",
     title: "Capture the Moment"
   }
 ];
