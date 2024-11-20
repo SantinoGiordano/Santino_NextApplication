@@ -134,7 +134,7 @@
 
     /* startupcard */
     .startup-card {
-        @apply bg-white border-[5px] border-black py-6 px-5 rounded-[22px]  w-fit transition-all duration-500 ;
+        @apply bg-white border-[5px] border-black py-6 px-5 rounded-[22px] w-96 transition-all duration-500 ;
     }
 
     .startup-card_date {
@@ -145,8 +145,8 @@
         @apply font-normal text-[16px] line-clamp-2 my-3 text-black-100 break-all;
     }
 
-    .startup-card_img {
-        @apply w-full h-[164px] rounded-[10px] object-cover;
+    .blog-card_img {
+        @apply w-96 h-full rounded-[10px] object-cover;
     }
 
     .startup-card_btn {
