@@ -82,7 +82,6 @@ const blogs  = [
   }
 ];
 
-
   return (
     <section className="blue_container">
       <h1 className="heading">
